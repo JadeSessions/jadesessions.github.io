@@ -94,7 +94,7 @@ h1 {
 
 /*About*/
 #about {
-    background-color: #EE0C70;
+    background-color: green;
 }
 
 #about-content {
@@ -104,8 +104,8 @@ h1 {
 
 .img-cirlce img{
     border-radius:50%;
-    height: 10%;
-    width: 20%;
+    height: 20%;
+    width: 30%;
 }
 #about a {
     color: #FFF;
