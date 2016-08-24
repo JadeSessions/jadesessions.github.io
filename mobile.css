@@ -104,8 +104,8 @@ h1 {
 
 .img-cirlce img{
     border-radius:50%;
-    height: 15%;
-    width: 25%;
+    height: 12%;
+    width: 22%;
 }
 #about a {
     color: #FFF;
@@ -117,8 +117,8 @@ h1 {
 #datme {
     padding-top: 50px;
     display: block;
-    width:30%;
-    height:30%;
+    width:20%;
+    height:20%;
     margin-left: auto;
     margin-right: auto;
 }
