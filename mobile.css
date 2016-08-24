@@ -247,9 +247,7 @@ h1 {
     font-size: 72px;
 }
 
-#city-icon img {
-    width:20%;
-    height:20%;
+#city-icon {
     display: block;
     margin-left: auto;
     margin-right: auto;
