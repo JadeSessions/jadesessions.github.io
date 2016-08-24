@@ -1,0 +1,141 @@
+<html>
+    <head>
+        <title>Jade Sessions</title>
+        <link rel="stylesheet" media="screen and (min-device-width: 800px)" href="style.css" />
+        <link rel='stylesheet' media='screen and (min-width: 300) and (max-width: 799)' href='mobile.css' />       
+        <link rel="icon" href="datme.png">
+        <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>   
+        <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <!--Nav Bar-->
+        <div class="nav-menu">
+            <ul>
+                <li id="name"><a class="name" href="#landing-page">Jade Sessions</a></li>
+                <li><a class="menu-link" href="#contact">Contact</a></li>
+                <li><a class="menu-link" href="#art">Art</a></li>
+                <li><a class="menu-link" href="#compsci">Coding</a></li>
+                <li><a class="menu-link" href="#about">About</a></li>
+            </ul>
+        </div>
+
+        <!--Here is the landing page--> 
+        <div id="landing-page">
+            <h1>Jade Sessions</h1>
+            <h3>Programmer.  Artist.  Visionary.</h3>
+            <a href="#about"><img src="download-arrow.png"></a>
+        <!--Down arrow goes here-->
+        </div>
+
+        <!--About Me-->
+        <div id="about">
+            <img id="datme" src="datme.png">
+            <div id="about-content">
+            <h1 >About Me</h1>
+                <p> I am an ambitious Boston University undergraduate with two years of programming experience and a strong interest in computer science, computer graphics, comics and learning foreign languages. A superhero in the making.
+                </p>
+                <h3>Foreign Languages</h3>
+                <ul>
+                    <li>English (Native)</li>
+                    <li>Spanish (Limited Working Proficiency)</li>
+                    <li>Korean (Intermediate)</li>
+                </ul>
+                <h3>Hobbies and Interests</h3>
+                <ul>
+                    <li>Dance(17 years)</li>
+                    <li>Upright Bass(11 years)</li>
+                    <li>Cosplay and Crafting</li>
+                    <li>Steelers #1 Fan</li>
+                </ul>
+                <ul class="img-cirlce">
+                    <li><img src= "dance.jpg"></li>
+                    <li><img src="bass.jpg"></li>
+                    <li><img src="gamora%20.jpg"></li>
+                    <li><img src="steelers.jpg"></li>
+                </ul>
+                <center><h3>Seem Pretty Cool To You?<a href="#contact"> Great, Contact Me!</a></h3></center>
+            </div>
+            
+        </div>
+
+        <!-- Computer Science-->
+        <div id="compsci">
+            <img id="compsci-icon" src="css-code.png">
+            <div id="compsci-content">
+                <h1>Computer Science</h1>
+                <h3>Technical Skills </h3>
+                <ul>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>HTML/CSS</li>
+                    <li>Javascript</li>
+                    <li>Assembly(Beginner)</li>
+                    <li>Basic Arudino C</li>
+                </ul>
+                <h3>Experience</h3>
+                <ul>
+                    <li>Boston University</li>
+                    <li>All Star Code</li>
+                    <li>Girls Who Code</li>
+                    <li>Girls Who Code</li>
+                </ul>
+                <ul class="subtext">
+                    <li>Course Assistant</li>
+                    <li>Teaching Assistant</li>
+                    <li>Teaching Assistant</li>
+                    <li>Particpant</li>
+                </ul>
+                <h3>Coursework</h3>
+                <ul>
+                    <li>Introduction to Computer Science I<br></li>
+                    <li>Introduction to Computer Science II<br></li>
+                    <li>Combinatoric Structures<br></li>
+                    <li>Computer Systems(in progress)<br></li>
+                    <li>Geometric Algorithms(in progress)</li>
+                </ul>
+                <center><h3>For More Info: <a href="JadeSessionsResume.pdf" download> Download My Resume</a></h3></center>
+            </div>
+        </div>
+                
+        <!--Art-->
+        <div id="art">
+            <img id="art-icon-max" class="title-icon-max" src="painter-palette-and-brush-artistic-tools.png">
+            <img id="art-icon-min" class="title-icon-min" src="painter-palette-and-brush-artistic-tools.png">
+            <div id="art-content"> 
+                <h1 id="quadrantx-h1-min" class="title-icon-min"> Quadrant X </h1>
+                <h1 id="quadrantx-h1-max" class="title-icon-max"> Quadrant X </h1>
+                <p>Quadrant X is my personal art project that showcases a group of diverse, female superheros. Each character has their own personality and backstory.</p>
+                <img src="sora%20pink%20clothes.jpg">
+                <img src="feral_portrait.jpg">
+                <center><h3>Wanna know more? <a href="#contact"> In the Meantime, Contact Me!</a></h3></center>
+
+            </div>
+        </div>
+         <!--Contact-->
+        <div id="contact">
+            <img id="contact-icon" src="contact-form.png">
+                <div id="contact-content">
+                    <center><h3>Jade Sessions</h3>
+                        <p><a href="tel: 516-754-1038">516-754-1038</a></p>
+                    <p><a href="mailto:jadesess&@gmail.com">jadesess7@gmail.com</a></p>
+                    <p>New York | Boston</p>
+                    <ul id= "city-icon">
+                        <li><a href="https://goo.gl/maps/Q9jn5Q2EJYJ2" target="_blank"><img src="statue-of-liberty.png"></a></li>
+                       <li><a href="https://goo.gl/maps/twpbmvhEEiH2" target="_blank" ><img src="boston-metro-logo.png"></a></li>
+                    </ul></center>
+                </div>
+        </div>
+        
+        <div id="footer">
+            <h2>Thanks for Stopping By!</h2>
+            <p>Icons generated from <a href="www.flaticon.com" target="_blank">www.flaticon.com </a><br>
+                Authors : <a href="http://www.flaticon.com/authors/lyolya" target="_blank">Lyola,</a> <a href="http://www.flaticon.com/authors/freepik" target="_blank">Freepik,</a> <a href="http://www.flaticon.com/authors/eucalyp" target="_blank">Eucalyp</a>
+            </p>
+        </div>
+    </body>
+</html>
+
+

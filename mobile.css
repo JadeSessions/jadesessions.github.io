@@ -1,0 +1,257 @@
+/*Creates separate pages*/
+#about {
+    height: 900px;
+    padding-top: 30px;
+}
+#contact, #compsci, #art, #landing-page {
+    height: 900px;
+    padding-top: 50px;
+}
+body {
+    background-color: #323231;
+}
+/*Landing Page*/
+#landing-page {
+    padding-top: 30px; 
+    height:610px;
+}
+
+#landing-page h1{
+    padding-top: 200px;
+    font-family: 'Bangers', 'sans-serif';
+    color:#EE0C70;
+    font-size: 72px;
+}
+
+#landing-page h3 {
+    text-align: center;
+    font-family: 'Oswald', 'sans-serif';
+    font-size:36px;
+    color:white;
+}
+
+#landing-page img {
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    width:100px;
+    height: 100px;
+}
+/*Nav Bar*/
+#name {
+    float: left;
+}
+.nav-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #323231;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-menu li {
+    display: inline;
+}
+li{
+    display: inline;
+}
+
+.nav-menu a {
+    float:right;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding:  13px;
+    text-decoration: none;
+}
+
+.menu-link:hover:not(.active) {
+    background-color: gray;
+}
+
+.nav-menu li {
+    font-weight: 900
+}
+.active {
+    background-color: #FFB7C9;
+}
+a {
+    text-decoration: none;
+}
+/* General*/
+h1 {
+    font-family: 'Bangers', cursive;
+    text-align: left;
+    font-size: 60px;
+    text-align: center;
+}
+
+#about h1, #compsci h1, #art h1, #contact h1 {
+    display:none;
+}
+
+/*About*/
+#about {
+    background-color: #EE0C70;
+}
+
+#about-content {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+.img-cirlce img{
+    border-radius:50%;
+    height: 10%;
+    width: 20%;
+}
+#about a {
+    color: #FFF;
+}
+#about a:hover:not(.active) {
+    color: #0DB5B6;
+}
+
+#datme {
+    display: block;
+    width:100px;
+    height:100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Comp Sci*/
+#compsci{
+    background-color: #BDC517;
+}
+#compsci-content {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+.subtext {
+    font-size: 14px;
+}
+
+#compsci p{
+    padding-left: 250; 
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+}
+
+#compsci a {
+    color: white;
+}
+
+#compsci-icon {
+    display: block;
+    width:100px;
+    height:100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ /* Art*/
+#art {
+    background-color: #0DB5B6;
+}
+
+#art-content {
+    text-align: center;
+    padding-top:20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+#art-content img {
+    height:30%;
+    width:40%;
+}
+
+#art-content a{
+    text-align: center;
+    color: #FFF;
+    font-family: 'Oswald', 'sans-serif';
+}
+
+#art a:hover:not(.active) {
+    color: blueviolet;
+}
+
+#art-icon-min {
+    display: block;
+    width:100px;
+    height:100px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+#art-icon-max {
+    display:none;
+}
+.title-icon-max{
+    display:none;
+}
+.title-icon-max img {
+    display:none;
+}
+
+/* Contact*/
+#contact-icon {
+    display: block;
+    width:80px;
+    height:80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact-content {
+    text-align:center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+#contact {
+    background-color: #5BC412;
+}
+#contact a {
+    color: #FFF;
+}
+#contact a:hover:not(.active) {
+    color: #0DB5B6;
+}
+#contact-content h3 {
+    font-size: 36px;
+}
+#contact-content p {
+    font-size: 24px;
+}
+
+#city-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Footer*/
+#footer{
+    height: 1000px;
+    font-family: 'Bangers', sans-serif;
+    text-align:center;
+    font-size: 60px;
+    padding-top:150px;
+    background-color: #C3159B;
+}
+
+#footer p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+}
+
+#footer a {
+    color: gray;
+}

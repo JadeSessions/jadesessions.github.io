@@ -1,0 +1,260 @@
+body {
+    background-color: #323231;
+}
+/*Creates separate pages*/
+#about {
+    height: 1000;
+    padding-top: 30px;
+}
+#contact, #compsci, #art{
+    height: 1000px;
+    padding-top: 50px;
+}
+
+/*Landing Page*/
+#landing-page {
+    padding-top: 30px; 
+    height:870px;
+    background-image: url("landingpage2.jpg")
+}
+#landing-page h1, #landing-page h3 {
+    display: none;
+}
+
+/*Nav Bar*/
+#name {
+    float: left;
+}
+.nav-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #323231;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-menu li {
+    float: right;
+}
+li{
+    display: inline;
+}
+
+.nav-menu a, #brand {
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu-link:hover:not(.active) {
+    background-color: gray;
+}
+
+.nav-menu li {
+    font-weight: 900
+}
+.active {
+    background-color: #FFB7C9;
+}
+a {
+    text-decoration: none;
+}
+/* General*/
+h1 {
+    font-family: 'Bangers', cursive;
+    text-align: left;
+    font-size: 60px;
+    padding-left: 150px;
+    top:0;
+}
+
+/* About */
+#about h1, #contact h1 {
+    padding-left: 200px;
+}
+#about {
+    height: 130%;
+    background: linear-gradient(90deg, #EE0C70 50%, #FFF 50%);
+}
+
+#about-content {
+    top:0px;
+    padding-top:20px;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 650px;
+    width:600px;
+    font-size: 16px;
+}
+
+#about li {
+    padding: 14px 10px;
+}
+#about a {
+    color: #EE0C70;
+}
+#about a:hover:not(.active) {
+    color: #0DB5B6;
+}
+
+#datme {
+    padding-left:0px;
+    float: left;
+}
+
+.img-cirlce img{
+    border-radius:50%;
+    height: 15%;
+    width: 20%;
+}
+
+
+/* Comp Sci*/
+#compsci{
+    height: 130%;
+    background: linear-gradient(90deg, #BDC517 50%, #FFF 50%);
+}
+#compsci-content {
+    text-align: left;
+    padding-top:20px;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 650px;
+    width:600px;
+    font-size: 16px;
+}
+
+#compsci h1 {
+    padding-left: 130px;
+}
+
+#compsci-icon {
+    padding-left:60px;
+    float:left;
+}
+#compsci li {
+    padding: 14px 10px;
+}
+#compsci a {
+    color: #BDC517;
+}
+
+.subtext {
+    color: gray;
+}
+
+ /* Art*/
+#art {
+    height: 130%;
+    background: linear-gradient(90deg, #0DB5B6 50%, #FFF 50%);
+}
+#art h1, {
+    padding-left: 130px;
+}
+
+#art-content {
+   top:0px;
+    padding-top:20px;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 650px;
+    width:600px;
+    font-size: 16px;
+}
+
+#art-content img {
+    margin-right: 0px;
+    height: 40%;
+    width: 50%;
+    float:right;
+}
+
+
+#art-content p, #art-content a{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: #0DB5B6;
+}
+
+#art a:hover:not(.active) {
+    color: blueviolet;
+}
+
+#art-icon-min {
+    display: none;   
+}
+
+#art-icon-max {
+    padding-top:45px;
+    padding-left:60px;
+    float:left;
+}
+
+.title-icon-min{
+    display:none;
+}
+.title-icon-min img {
+    display:none;
+}
+/* Contact*/
+
+#contact-icon {
+    padding-top:45px;
+    float:left;
+    padding-left:90px;
+}
+#contact-content {
+    padding-left: 650px;
+    width:600px;
+    margin:0px;
+    font-family: 'Oswald', sans-serif;
+    top:0px;
+}
+
+#contact {
+    height: 130%;
+    background: linear-gradient(90deg, #5BC412 50%, #FFF 50%);
+}
+#contact a {
+    color: #5BC412;
+}
+#contact a:hover:not(.active) {
+    color: #0DB5B6;
+}
+#contact-content h3 {
+    font-size: 48px;
+}
+#contact-content p {
+    font-size: 36px;
+}
+
+#contact img {
+    padding-left: 90px;
+}
+#city-icon {
+    padding-right: 120px;
+}
+
+/*Footer*/
+#footer{
+    height: 600px;
+    font-family: 'Bangers', sans-serif;
+    text-align:center;
+    font-size: 72px;
+    padding-top:150px;
+    background-color: #C3159B;
+}
+
+#footer p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+}
+
+#footer a {
+    color: gray;
+}
+    
