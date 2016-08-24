@@ -9,7 +9,7 @@
 }
 
 #art {
-    height:160%;
+    height:200%;
     padding-top: 30px;
 }
 body {
@@ -177,7 +177,7 @@ h1 {
     text-align: center;
     padding-top:20px;
     font-family: 'Oswald', sans-serif;
-    font-size: 36px;
+    font-size: 40px;
 }
 
 #art-content img {
@@ -185,7 +185,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     height:45%;
-    width:60%;
+    width:80%;
 }
 
 #art-content a{
