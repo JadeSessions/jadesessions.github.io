@@ -177,6 +177,8 @@ h1 {
 
 #art-content img {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     height:35%;
     width:50%;
 }
@@ -192,7 +194,7 @@ h1 {
 }
 
 #art-icon-min {
-    padding-top:30px;
+    padding-top:50px;
     display: block;
     width:100px;
     height:100px;
@@ -235,10 +237,10 @@ h1 {
     color: #0DB5B6;
 }
 #contact-content h3 {
-    font-size: 60px;
+    font-size: 130px;
 }
 #contact-content p {
-    font-size: 48px;
+    font-size: 72px;
 }
 
 #city-icon {
