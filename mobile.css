@@ -3,8 +3,13 @@
     height: 130%;
     padding-top: 30px;
 }
-#contact, #compsci, #art, #landing-page {
+#contact, #compsci, #landing-page {
     height: 130%;
+    padding-top: 30px;
+}
+
+#art {
+    height:160%;
     padding-top: 30px;
 }
 body {
@@ -172,15 +177,15 @@ h1 {
     text-align: center;
     padding-top:20px;
     font-family: 'Oswald', sans-serif;
-    font-size: 30;
+    font-size: 36px;
 }
 
 #art-content img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height:35%;
-    width:50%;
+    height:45%;
+    width:60%;
 }
 
 #art-content a{
@@ -197,7 +202,7 @@ h1 {
     padding-top:50px;
     display: block;
     width:20%;
-    height:20%;
+    height:15%;
     margin-left: auto;
     margin-right: auto;   
 }
@@ -216,7 +221,7 @@ h1 {
 #contact-icon {
     display: block;
     width:20%;
-    height:20%;
+    height:15%;
     margin-left: auto;
     margin-right: auto;
 }
