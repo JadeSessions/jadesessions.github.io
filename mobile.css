@@ -9,7 +9,7 @@
 }
 
 #art {
-    height:200%;
+    height:500%;
     padding-top: 30px;
 }
 body {
@@ -185,7 +185,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     height:45%;
-    width:80%;
+    width:100%;
 }
 
 #art-content a{
