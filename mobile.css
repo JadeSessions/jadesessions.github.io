@@ -1,6 +1,6 @@
 /*Creates separate pages*/
 #about {
-    height: 900px;
+    height: 1000%;
     padding-top: 30px;
 }
 #contact, #compsci, #art, #landing-page {
