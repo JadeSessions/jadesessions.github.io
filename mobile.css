@@ -247,7 +247,7 @@ h1 {
     font-size: 72px;
 }
 
-#city-icon {
+#city-icon img {
     width:50%;
     height:50%;
     display: block;
