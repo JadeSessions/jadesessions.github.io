@@ -153,7 +153,7 @@ h1 {
 }
 
 #compsci li {
-    font-size: 25px;
+    font-size: 28px;
 }
 
 #compsci-icon {
@@ -177,7 +177,7 @@ h1 {
 
 #art-content img {
     display: block;
-    height:40%;
+    height:35%;
     width:50%;
 }
 
@@ -192,6 +192,7 @@ h1 {
 }
 
 #art-icon-min {
+    padding-top:30px;
     display: block;
     width:100px;
     height:100px;
