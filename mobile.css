@@ -4,7 +4,7 @@
     padding-top: 30px;
 }
 #contact, #compsci, #art, #landing-page {
-    height: 1500px;
+    height: 900px;
     padding-top: 50px;
 }
 body {
@@ -20,7 +20,7 @@ body {
     padding-top: 200px;
     font-family: 'Bangers', 'sans-serif';
     color:#EE0C70;
-    font-size: 200px;
+    font-size: 150px;
 }
 
 #landing-page h3 {
@@ -102,13 +102,13 @@ h1 {
 
 #about-content {
     font-family: 'Oswald', sans-serif;
-    font-size: 20px;
+    font-size: 48px;
 }
 
 .img-cirlce img{
     border-radius:50%;
-    height: 10%;
-    width: 20%;
+    height: 50%;
+    width: 70%;
 }
 #about a {
     color: #FFF;
