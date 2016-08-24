@@ -181,8 +181,10 @@ h1 {
 }
 
 #art-content img {
-    height:45%;
-    width:50%;
+    margin-right: 0px;
+    height: 40%;
+    width: 50%;
+    float:right;
 }
 
 #art-content a{
